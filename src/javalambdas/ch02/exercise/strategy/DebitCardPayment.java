@@ -1,8 +1,9 @@
 package javalambdas.ch02.exercise.strategy;
 
-import java.math.BigDecimal;
 
-import lambdas.ch02.exercise.PaymentStatus;
+import javalambdas.ch02.exercise.PaymentStatus;
+
+import java.math.BigDecimal;
 
 public class DebitCardPayment implements PaymentStrategy {
 

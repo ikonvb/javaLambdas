@@ -4,7 +4,7 @@ public class ThreadLambdas {
 
 	public static void main(String[] args) {
 
-		Runnable r = () -> performLongRunningOperation();
+		Runnable r = ThreadLambdas::performLongRunningOperation;
 		Thread t = new Thread(r);
 		t.start();
 

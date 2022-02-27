@@ -1,16 +1,16 @@
 package javalambdas.ch04;
 
+
+import javalambdas.employee.Designation;
+import javalambdas.employee.Employee;
+import javalambdas.employee.Skill;
+import javalambdas.employee.Unit;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import lambdas.employee.Designation;
-import lambdas.employee.Employee;
-import lambdas.employee.Skill;
-import lambdas.employee.Unit;
-
-
-//Example of Predicate interface 
+//Example of Predicate interface
 public class EmployeeTestUsingPredicate {
 
 	private static final List<Employee> employees = new ArrayList<>();
@@ -23,14 +23,14 @@ public class EmployeeTestUsingPredicate {
 			
 		System.out.println("--------EDC Employees--------");
 
-		Predicate<Employee> unitFilter = (Employee employee) -> employee.getUnit() == unit; 
+		Predicate<Employee> unitFilter = (Employee employee) -> employee.getUnit() == unit;
 		
 		List<Employee> edcEmployees = getEmployeesFilteredBy(unitFilter);
 		System.out.println(edcEmployees);
 
 		// 2.Get all the java developers.
 		
-		Predicate<Employee> javaFilter = (Employee employee)-> employee.getSkills().contains(Skill.JAVA);		
+		Predicate<Employee> javaFilter = (Employee employee)-> employee.getSkills().contains(Skill.JAVA);
 		List<Employee> javaDevelopers = getEmployeesFilteredBy(javaFilter);
 		
 		System.out.println("--------Java Developers--------");

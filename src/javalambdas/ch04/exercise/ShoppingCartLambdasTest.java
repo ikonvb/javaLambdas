@@ -1,13 +1,14 @@
 package javalambdas.ch04.exercise;
 
-import java.math.BigDecimal;
 
-import lambdas.ch02.exercise.Item;
+import javalambdas.ch02.exercise.Item;
+
+import java.math.BigDecimal;
 
 public class ShoppingCartLambdasTest {
 	
 	public static void main(String[] args) {
-		Item item1 = new Item("Phone",BigDecimal.valueOf(200.00));
+		Item item1 = new Item("Phone", BigDecimal.valueOf(200.00));
 		Item item2 = new Item("Laptop",BigDecimal.valueOf(800.00));
 		Item item3 = new Item("Paper",BigDecimal.valueOf(10.00));
 		

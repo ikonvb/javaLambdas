@@ -1,8 +1,9 @@
 package javalambdas.ch06;
 
-import java.util.Comparator;
 
-import lambdas.employee.Employee;
+import javalambdas.employee.Employee;
+
+import java.util.Comparator;
 
 //Sorting with Comparator - Anonymous class.
 public class EmployeeSorterUsual {

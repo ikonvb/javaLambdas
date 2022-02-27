@@ -1,11 +1,12 @@
 package javalambdas.ch06;
 
+
+import javalambdas.employee.Employee;
+import javalambdas.employee.Skill;
+import javalambdas.employee.Unit;
+
 import java.util.List;
 import java.util.function.Predicate;
-
-import lambdas.employee.Employee;
-import lambdas.employee.Skill;
-import lambdas.employee.Unit;
 
 //Test class for fetching Employee on different filtering criteria.
 public class EmployeeFilterTest {

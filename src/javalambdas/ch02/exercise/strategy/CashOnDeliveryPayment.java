@@ -1,8 +1,9 @@
 package javalambdas.ch02.exercise.strategy;
 
+import javalambdas.ch02.exercise.PaymentStatus;
+
 import java.math.BigDecimal;
 
-import lambdas.ch02.exercise.PaymentStatus;
 
 public class CashOnDeliveryPayment implements PaymentStrategy {
 

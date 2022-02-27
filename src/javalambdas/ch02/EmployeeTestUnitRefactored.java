@@ -1,12 +1,13 @@
 package javalambdas.ch02;
 
+
+import javalambdas.employee.Designation;
+import javalambdas.employee.Employee;
+import javalambdas.employee.Skill;
+import javalambdas.employee.Unit;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import lambdas.employee.Designation;
-import lambdas.employee.Employee;
-import lambdas.employee.Skill;
-import lambdas.employee.Unit;
 
 //Employees by unit re-factored.
 public class EmployeeTestUnitRefactored {

@@ -1,11 +1,12 @@
 package javalambdas.ch06;
 
-import static java.util.Comparator.comparing;
-import static java.util.Comparator.comparingInt;
+
+import javalambdas.employee.Employee;
 
 import java.util.Comparator;
 
-import lambdas.employee.Employee;
+import static java.util.Comparator.comparing;
+import static java.util.Comparator.comparingInt;
 
 //Final version of the re-factored code.
 public class EmployeeSorterFinal {

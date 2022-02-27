@@ -1,7 +1,8 @@
 package javalambdas.ch02;
 
-import lambdas.employee.Employee;
-import lambdas.employee.Skill;
+
+import javalambdas.employee.Employee;
+import javalambdas.employee.Skill;
 
 public class JavaSkillsFilter implements EmployeeFilter {
 

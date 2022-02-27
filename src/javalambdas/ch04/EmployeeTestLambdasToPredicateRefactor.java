@@ -1,20 +1,19 @@
 package javalambdas.ch04;
 
+import javalambdas.employee.Designation;
+import javalambdas.employee.Employee;
+import javalambdas.employee.Skill;
+import javalambdas.employee.Unit;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import lambdas.employee.Designation;
-import lambdas.employee.Employee;
-import lambdas.employee.Skill;
-import lambdas.employee.Unit;
-
 
 //Lambdas, EmployeeFilter to Predicate.
 public class EmployeeTestLambdasToPredicateRefactor {
 
 	private static final List<Employee> employees = new ArrayList<>();
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		initialize();
 
 		// 1. Get a list of all employees in EDC.

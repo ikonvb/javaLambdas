@@ -1,14 +1,14 @@
 package javalambdas.ch06;
 
+import javalambdas.employee.Employee;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
 
-import lambdas.employee.Employee;
-
-public class EmployeeService {	
+public class EmployeeService {
 	
 	public List<Employee> getEmployeesFilteredBy(Predicate<Employee> filter) {
 

@@ -1,7 +1,8 @@
 package javalambdas.ch02;
 
-import lambdas.employee.Employee;
-import lambdas.employee.Unit;
+
+import javalambdas.employee.Employee;
+import javalambdas.employee.Unit;
 
 public class EDCFilter implements EmployeeFilter {
 

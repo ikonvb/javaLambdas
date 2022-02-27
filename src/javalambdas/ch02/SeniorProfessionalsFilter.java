@@ -1,6 +1,7 @@
 package javalambdas.ch02;
 
-import lambdas.employee.Employee;
+
+import javalambdas.employee.Employee;
 
 public class SeniorProfessionalsFilter implements EmployeeFilter {
 

@@ -1,13 +1,13 @@
 package javalambdas.ch04.exercise;
 
+import javalambdas.ch02.exercise.Item;
+import javalambdas.ch02.exercise.PaymentStatus;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.function.Function;
-
-import lambdas.ch02.exercise.Item;
-import lambdas.ch02.exercise.PaymentStatus;
 
 //Notice no strategy classes. Look at Payment class.
 public class ShoppingCartLambdas {

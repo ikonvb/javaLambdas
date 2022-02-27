@@ -1,15 +1,13 @@
 package javalambdas.ch06;
 
+
+
+import javalambdas.employee.Employee;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.ToIntBiFunction;
-import java.util.function.ToIntFunction;
-
-import lambdas.employee.Employee;
+import java.util.function.*;
 
 public class MethodReferenceTest {
 

@@ -1,6 +1,7 @@
 package javalambdas.ch03;
 
-import lambdas.employee.Employee;
+
+import javalambdas.employee.Employee;
 
 public interface EmployeeFilter {
 

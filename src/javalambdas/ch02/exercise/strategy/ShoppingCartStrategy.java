@@ -1,11 +1,12 @@
 package javalambdas.ch02.exercise.strategy;
 
+
+import javalambdas.ch02.exercise.Item;
+import javalambdas.ch02.exercise.PaymentStatus;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
-import lambdas.ch02.exercise.Item;
-import lambdas.ch02.exercise.PaymentStatus;
 
 public class ShoppingCartStrategy {
 

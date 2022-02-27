@@ -1,13 +1,14 @@
 package javalambdas.ch04;
 
+
+import javalambdas.employee.Designation;
+import javalambdas.employee.Employee;
+import javalambdas.employee.Skill;
+import javalambdas.employee.Unit;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
-
-import lambdas.employee.Designation;
-import lambdas.employee.Employee;
-import lambdas.employee.Skill;
-import lambdas.employee.Unit;
 
 //Lambda Predicate - and method,see requirement 4 below.
 public class EmployeeTestPredicateAnd {
